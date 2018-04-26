@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<style>
+body {font-family: Arial;}
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+</style>
+<body bgcolor="#D0F0F7">
+
+<form action="login.php" style="width:300px" method='POST'>
+  <div class="container">
+    <h1>Login</h1>
+    <hr>
+
+    <label><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" autofocus>
+
+    <label><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required/>
+
+
+    <label>
+      <input type="checkbox" checked="checked" style="margin-bottom:15px"> Remember me
+    </label>
+
+
+    <div class="clearfix">
+      <button type="submit" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Login</button>
+    </div>
+  </div>
+</form>
+
+    <footer>
+<div style="color: #777;background-color:#D0F0F7;padding:50px 80px;">
+    <div style="padding-top: 30px">
+<table style="width:100%">
+    <tr>
+        <td align="center"><font align="centre" color="black" size="4">COMPANY</font></td>
+		<td align="center"><font color="black" size="4">HELP & SUPPORT</font></td>
+		<td align="center"><font color="black" size="4">POLICIES</font></td>
+        <td align="center"><font color="black" size="4">CONNECT</font></td>
+
+   </tr>
+   <tr>
+        <td align="center"><font align="centre" color="#777">About</font></td>
+		<td align="center"><font color="#777">Home</font></td>
+		<td align="center"><font color="#777">Privacy Policy</font></td>
+       <td align="center"><font color="#0000FF"><a style="text-decoration:none; color:#0000FF" href="http://www.facebook.com" class="class1">facebook</a></font></td>
+   </tr>
+   <tr>
+       <td align="center"><font color="#777">Team</font></td>
+	   <td align="center"><font color="#777">Payment Options</font></td>
+	   <td align="center"><font color="#777">Terms & Condition </font></td>
+       <td align="center"><font color="#21C525"><a style="text-decoration:none; color:#21C525" href="http://www.google.com" class="class2">Google</a></font></td>
+   </tr>
+   <tr>
+       <td align="center"><font color="#777">Contact</font></td>
+	   <td align="center"><font color="#777">FAQ</font></td>
+	   <td align="center"><font color="#777">Refund policy</font></td>
+       <td align="center"><font color="#00FFFF"><a style="text-decoration:none; color:#7B149F" href="http://www.twitter.com" class="class3">twitter</a></font></td>
+   </tr>
+    <tr>
+       <td align="center"><font color="#777">Blog</font></td>
+	   <td align="center"><font color="#777">Support</font></td>
+	   <td align="center"><font color="#777">Grievance Policy</font></td>
+        <td align="center"><font color="#FF0000"><a style="text-decoration:none; color:#FF0000" href="http://www.youtube.com" class="class4">Youtube</a></font></td>
+   </tr>
+ </table>
+</div>
+    </div>
+    </footer>
+
+</body>
+</html>

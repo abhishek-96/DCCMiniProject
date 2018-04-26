@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Bootstrap -->
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<link href="css/animate.css" rel="stylesheet">
+
+<link href="css/font-awesome-4.6.3/css/font-awesome.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+<script src="js/wow.min.js"></script>
+
+ <script>
+
+          new WOW().init();
+
+ </script>
+
+<style>
+#map {
+       width: 100%;
+       height: 400px;
+       background-color:grey
+     }
+    body {font-family: Comic Sans MS, sans-serif;}
+    h1{
+        color:#20F58E;
+        font-size: 48px;
+    }
+    h4{
+
+    padding-left: 200px;
+    padding-right:200px;
+    }
+    .image{
+        padding-top: 30px;
+        padding-left: 30px;
+    }
+    </style>
+
+    <body bgcolor="#D0F0F7">
+
+    <section align="middle">
+        <h1>About US</h1>
+        </section>
+
+        <article>
+        <h4>
+            Can you believe it, a platform just for food blogs? Yes, Cucumbertown is the world’s first and largest platform for food blogging. I’m sure the founder of this one would’ve definitely been quite a foodie. It is part of Cookpad – an internet corporation specializing in the recipe sharing service. Being the first only food blogging platform, there are a few features which have to be paid more attention to like super easy analytics and the very user friendly recipe writer (wow a recipe writer, doesn’t that make your work so much easier). Cucumbertown’s design and user experience is unmatched among other food blogging platforms. Another reason why people choose Cucumbertown is the way it has optimised advertisement delivery on your website to get maximum revenues on ads. If you are not very particular about hosting and managing all the nitty gritty about your blog website, Cucumbertown is great option to consider.<br><br>
+            CucmberTown is a blogging platform that focuses heavily on design and user experience. CucumberTown also provides you a number of features such as email subscriptions and custom domain support. To get going with your blog on Silvrback you got to be on an yearly subscription. If you are considering CucmberTown, there are a few things to be kept in mind like it is available only in hosted form and there are limited design options.<br><br>
+            Hope you got a preview of the top food blogging platforms you should check out before starting to write. If you are using any of these platforms, let us know how it’s been going for you. Also feel free to share other alternatives that users can check out in the comments section below.
+
+
+            </h4>
+        </article>
+        <div class="image">
+        <img src="food.PNG" height="250px" width="1170px" padding-left="100px"></div>
+    <footer>
+<div style="color: #777;background-color:#D0F0F7;padding:50px 80px;">
+    <div style="padding-top: 30px">
+<table style="width:100%">
+    <tr>
+        <td align="center"><font align="centre" color="black" size="4">COMPANY</font></td>
+		<td align="center"><font color="black" size="4">HELP & SUPPORT</font></td>
+		<td align="center"><font color="black" size="4">POLICIES</font></td>
+        <td align="center"><font color="black" size="4">CONNECT</font></td>
+
+   </tr>
+   <tr>
+        <td align="center"><font align="centre" color="#777">About</font></td>
+		<td align="center"><font color="#777">Home</font></td>
+		<td align="center"><font color="#777">Privacy Policy</font></td>
+       <td align="center"><font color="#0000FF"><a style="text-decoration:none; color:#0000FF" href="http://www.facebook.com" class="class1">facebook</a></font></td>
+   </tr>
+   <tr>
+       <td align="center"><font color="#777">Team</font></td>
+	   <td align="center"><font color="#777">Payment Options</font></td>
+	   <td align="center"><font color="#777">Terms & Condition </font></td>
+       <td align="center"><font color="#21C525"><a style="text-decoration:none; color:#21C525" href="http://www.google.com" class="class2">Google</a></font></td>
+   </tr>
+   <tr>
+       <td align="center"><font color="#777">Contact</font></td>
+	   <td align="center"><font color="#777">FAQ</font></td>
+	   <td align="center"><font color="#777">Refund policy</font></td>
+       <td align="center"><font color="#00FFFF"><a style="text-decoration:none; color:#7B149F" href="http://www.twitter.com" class="class3">twitter</a></font></td>
+   </tr>
+    <tr>
+       <td align="center"><font color="#777">Blog</font></td>
+	   <td align="center"><font color="#777">Support</font></td>
+	   <td align="center"><font color="#777">Grievance Policy</font></td>
+        <td align="center"><font color="#FF0000"><a style="text-decoration:none; color:#FF0000" href="http://www.youtube.com" class="class4">Youtube</a></font></td>
+   </tr>
+ </table>
+</div>
+    </div>
+
+    </footer>
+
+       <div class='well' style='border-radius:20px; background-color:#D0F0F7'>
+     <div id='map' ></div>
+   </div>
+
+    <script>
+          function initMap() {
+            var uluru = {lat: 19.0730847, lng:72.89982209999994,elevation:19};
+            var map = new google.maps.Map(document.getElementById('map'), {
+              zoom: 10,
+              center: uluru
+            });
+            var marker = new google.maps.Marker({
+              position: uluru,
+              map: map
+            });
+          }
+        </script>
+        <script async defer
+         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCnI5MxJcRLIW1J2lFz4mmxk3EkXYBdBwY&callback=initMap">
+        </script>
+
+
+    </body>
+
+
+
+
+
+
+
+
+
+</head>
