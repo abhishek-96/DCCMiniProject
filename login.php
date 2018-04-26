@@ -9,7 +9,7 @@ session_start();
 $username=$_POST['email'];
 $password=$_POST['psw'];
 
-$conn=mysqli_connect("localhost","root","","blog");
+$conn=mysqli_connect("http://13.127.47.103","bitnami","zc1LQI3URtxp","blog");
 if(!$conn){
     die("Connection failed".mysql_error());
 }
